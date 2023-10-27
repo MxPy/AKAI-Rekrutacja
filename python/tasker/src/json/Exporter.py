@@ -8,5 +8,5 @@ class Exporter:
 
     def save_tasks(self, tasks):
         # TODO zapisz taski do pliku tutaj
-        with open('data.json', 'w', encoding='utf-8') as f:
+        with open('python/tasker/taski.json', 'w', encoding='utf-8') as f:
             json.dump(tasks, f, ensure_ascii=False)
